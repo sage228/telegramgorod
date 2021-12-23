@@ -3,7 +3,6 @@ from config import bot_token
 import logging
 import asyncio
 from aiogram import Bot, Dispatcher, executor, types
-from selenium import webdriver
 
 
 # Инициализируем бота
