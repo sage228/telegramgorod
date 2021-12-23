@@ -14,6 +14,7 @@ dp = Dispatcher(bot, loop=loop)
 async def echo(message: types.Message):
     await message.answer(message.text)
     print(message.text)
+    
 # запускаем лонг полинг
 if __name__ == '__main__':
     from handlers import dp, send_to_admin
