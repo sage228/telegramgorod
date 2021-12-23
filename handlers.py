@@ -2,7 +2,6 @@ from bot import bot, dp
 from aiogram.types import Message
 from config import admin_id, users
 import time
-from selenium import webdriver
 
 
 async def send_to_admin(dp):
